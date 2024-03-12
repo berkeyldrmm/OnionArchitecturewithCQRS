@@ -1,0 +1,15 @@
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\bin\Debug\net7.0\OnionArchitecturewithCQRS.Application.deps.json
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\bin\Debug\net7.0\OnionArchitecturewithCQRS.Application.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\bin\Debug\net7.0\OnionArchitecturewithCQRS.Application.pdb
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\bin\Debug\net7.0\OnionArchitecturewithCQRS.Domain.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\bin\Debug\net7.0\OnionArchitecturewithCQRS.Domain.pdb
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.csproj.AssemblyReference.cache
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.AssemblyInfoInputs.cache
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.AssemblyInfo.cs
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.csproj.CoreCompileInputs.cache
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.csproj.CopyComplete
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\refint\OnionArchitecturewithCQRS.Application.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\OnionArchitecturewithCQRS.Application.pdb
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Application\obj\Debug\net7.0\ref\OnionArchitecturewithCQRS.Application.dll

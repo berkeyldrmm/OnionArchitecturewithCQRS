@@ -7,8 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OnionArchitecturewithCQRS.Application\OnionArchitecturewithCQRS.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\OnionArchitecturewithCQRS.Persistence\OnionArchitecturewithCQRS.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

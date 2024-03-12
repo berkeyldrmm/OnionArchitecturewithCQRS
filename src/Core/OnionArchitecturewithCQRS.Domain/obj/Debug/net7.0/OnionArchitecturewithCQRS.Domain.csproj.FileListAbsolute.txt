@@ -1,0 +1,12 @@
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\bin\Debug\net7.0\OnionArchitecturewithCQRS.Domain.deps.json
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\bin\Debug\net7.0\OnionArchitecturewithCQRS.Domain.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\bin\Debug\net7.0\OnionArchitecturewithCQRS.Domain.pdb
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.csproj.AssemblyReference.cache
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.AssemblyInfoInputs.cache
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.AssemblyInfo.cs
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.csproj.CoreCompileInputs.cache
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\refint\OnionArchitecturewithCQRS.Domain.dll
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\OnionArchitecturewithCQRS.Domain.pdb
+C:\.net core\OnionArchitecturewithCQRS\src\Core\OnionArchitecturewithCQRS.Domain\obj\Debug\net7.0\ref\OnionArchitecturewithCQRS.Domain.dll

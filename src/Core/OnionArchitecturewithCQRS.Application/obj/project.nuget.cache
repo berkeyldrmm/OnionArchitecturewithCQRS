@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "eqf8x7/GYLfNLq/j7/8Y4SVh5YbQVGxyM+OhwVclU/7qaKXUVYCVZY0oDUczqgZN20Ddn9n5WgDDmvIRo9S3ZQ==",
+  "dgSpecHash": "O2zo30VCDqHSia/WNeumSJ9MKD5eEx2t56lt2iY1aYZnOJhHSqJhWlRQg8RUQFiMr42qs/shf6K3mYqLUw312w==",
   "success": true,
   "projectFilePath": "C:\\.net core\\OnionArchitecturewithCQRS\\src\\Core\\OnionArchitecturewithCQRS.Application\\OnionArchitecturewithCQRS.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ROG\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
