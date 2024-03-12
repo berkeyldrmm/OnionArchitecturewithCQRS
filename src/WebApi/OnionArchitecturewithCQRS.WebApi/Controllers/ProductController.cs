@@ -19,11 +19,9 @@ namespace OnionArchitecturewithCQRS.WebApi.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly IUnitOfWork _unitOfWork;
-        public ProductController(IMediator mediator, IUnitOfWork unitOfWork)
+        public ProductController(IMediator mediator)
         {
             _mediator = mediator;
-            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
@@ -46,12 +44,8 @@ namespace OnionArchitecturewithCQRS.WebApi.Controllers
         public async Task<IActionResult> Post(CreateProductCommand command)
         {
             ServiceResponse<Guid> response = await _mediator.Send(command);
-            int result = await _unitOfWork.SaveChangesAsync();
+            return Ok(response);
 
-            if(result > 0)
-                return Ok(response);
-
-            throw new SqlException("Product entity couldn't add to database");
         }
     }
 }
