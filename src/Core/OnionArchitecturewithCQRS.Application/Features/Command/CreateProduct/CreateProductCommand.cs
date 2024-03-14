@@ -15,10 +15,11 @@ namespace OnionArchitecturewithCQRS.Application.Features.Command.CreateProduct
 {
     public class CreateProductCommand: IRequest<ServiceResponse<Guid>>
     {
-        public String Name { get; set; }
+        private string _name;
+        public String Name { get =>_name; set { _name = "arda"; } }
         public decimal Value { get; set; }
         public int Quantity { get; set; }
-
+        
         public class CreateProductHandler : IRequestHandler<CreateProductCommand, ServiceResponse<Guid>>
         {
             private readonly IProductRepository _productRepository;
