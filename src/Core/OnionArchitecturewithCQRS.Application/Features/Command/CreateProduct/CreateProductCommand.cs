@@ -15,8 +15,7 @@ namespace OnionArchitecturewithCQRS.Application.Features.Command.CreateProduct
 {
     public class CreateProductCommand: IRequest<ServiceResponse<Guid>>
     {
-        private readonly string _name;
-        public String Name { get =>_name; set { _name = "arda"; } }
+        public String Name { get; set; }
         public decimal Value { get; set; }
         public int Quantity { get; set; }
         
