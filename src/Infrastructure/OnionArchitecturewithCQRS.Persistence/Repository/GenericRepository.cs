@@ -62,5 +62,10 @@ namespace OnionArchitecturewithCQRS.Persistence.Repository
         {
             _context.UpdateRange(entites);
         }
+
+        public async Task<int> SaveChangesAsync()
+        {
+            return await _context.SaveChangesAsync();
+        }
     }
 }
