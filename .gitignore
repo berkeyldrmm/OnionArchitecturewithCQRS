@@ -1,0 +1,9 @@
+
+bin/
+[Bb]in/
+debug/
+[Dd]ebug/
+[Dd]ebugPublic/
+obj/
+
+.csproj
