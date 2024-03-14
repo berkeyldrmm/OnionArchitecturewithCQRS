@@ -1,4 +1,5 @@
-﻿using OnionArchitecturewithCQRS.Domain.Common;
+﻿using OnionArchitecturewithCQRS.Application.Interfaces.UnitOfWork;
+using OnionArchitecturewithCQRS.Domain.Common;
 using OnionArchitecturewithCQRS.Domain.Entites;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OnionArchitecturewithCQRS.Application.Interfaces.Repository
 {
-    public interface IGenericRepository<T> where T : BaseEntity
+    public interface IGenericRepository<T>: IUnitOfWork where T : BaseEntity
     {
         Task<List<T>> GetAll();
         Task<T> GetById(Guid id);

@@ -23,13 +23,11 @@ namespace OnionArchitecturewithCQRS.Application.Features.Command.CreateProduct
         {
             private readonly IProductRepository _productRepository;
             private readonly IMapper _mapper;
-            private readonly IUnitOfWork _unitOfWork;
 
-            public CreateProductHandler(IProductRepository productRepository, IMapper mapper, IUnitOfWork unitOfWork)
+            public CreateProductHandler(IProductRepository productRepository, IMapper mapper)
             {
                 _productRepository = productRepository;
                 _mapper = mapper;
-                _unitOfWork = unitOfWork;
             }
 
             public async Task<ServiceResponse<Guid>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
@@ -41,7 +39,7 @@ namespace OnionArchitecturewithCQRS.Application.Features.Command.CreateProduct
                 if (!result)
                     throw new SqlException("An error occured while adding product.");
 
-                int saved = await _unitOfWork.SaveChangesAsync();
+                int saved = await _productRepository.SaveChangesAsync();
                 if(saved > 0)
                     return new ServiceResponse<Guid>(product.Id);
 
