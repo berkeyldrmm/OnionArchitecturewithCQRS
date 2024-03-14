@@ -10,7 +10,6 @@ using OnionArchitecturewithCQRS.Application.Interfaces.Repository;
 using OnionArchitecturewithCQRS.Application.Interfaces.UnitOfWork;
 using OnionArchitecturewithCQRS.Application.Wrappers;
 using OnionArchitecturewithCQRS.Domain.Entites;
-using OnionArchitecturewithCQRS.Persistence.UnitOfWorkService;
 
 namespace OnionArchitecturewithCQRS.WebApi.Controllers
 {
